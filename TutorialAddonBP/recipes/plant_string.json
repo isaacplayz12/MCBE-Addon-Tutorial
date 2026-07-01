@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:recipe_shaped":{
+        "description":{
+            "identifier": "tutorial:string_from_plant_string"
+        },
+        "tags":["crafting_table"],
+        "pattern":[
+            "#"
+        ],
+        "key":{
+            "#": {
+                "item":"tutorial:plant_string"
+            }
+        },
+        "unlock":[
+            {
+                "item": "tutorial:plant_string"
+            }
+        ],
+        "result":{
+            "item":"minecraft:string",
+            "count": 1
+        }
+    }
+}
