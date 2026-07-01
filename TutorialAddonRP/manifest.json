@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "YT tutorial addon",
+    "description": "tutorial addon for youtube",
+    "uuid": "b22c6315-42d4-413f-a840-5d738b34ab03",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "351f23b5-65e4-4079-a036-ca557ef28ac1",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0d9b04a0-fd91-4605-a9e3-e860f1fb68ba",
+      "version": [1, 0, 0]
+    }
+  ]
+}

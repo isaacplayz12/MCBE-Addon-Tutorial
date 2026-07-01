@@ -1,0 +1,9 @@
+{
+    "texture_data": {
+        "plant_string": {
+            "textures": "textures/items/plant_string"
+        }
+    },
+    "texture_name": "atlas.items",
+    "resource_pack_name": "yt_tutorial_addon"
+}
