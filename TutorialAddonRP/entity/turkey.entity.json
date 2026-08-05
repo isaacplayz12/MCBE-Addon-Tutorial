@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tutorial:turkey",
+      "min_engine_version": "1.12.0",
+
+      "materials": {
+        "default": "entity_alphatest"
+
+      },
+      "textures": {
+        "adult": "textures/entity/turkey",
+        "baby": "textures/entity/baby_turkey"
+      },
+      "geometry": {
+        "adult": "geometry.turkey",
+        "baby": "geometry.chicken.baby"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 1.0"
+      },
+      "render_controllers": [
+        "controller.render.turkey"
+      ],
+      "spawn_egg": {
+        "texture": "turkey_spawn_egg"
+      }
+    }
+  }
+}
