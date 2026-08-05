@@ -1,2 +1,3 @@
 item.plant_string.name= Plant String
 tile.tutorial:test_block.name= Test Block
+item.spawn_egg.entity.tutorial:turkey.name= Turkey Spawn Egg
