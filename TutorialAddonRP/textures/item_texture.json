@@ -1,9 +1,12 @@
 {
+    "texture_name": "atlas.items",
+    "resource_pack_name": "yt_tutorial_addon",
     "texture_data": {
         "plant_string": {
             "textures": "textures/items/plant_string"
+        },
+        "turkey_spawn_egg": {
+            "textures": "textures/items/turkey_spawn_egg"
         }
-    },
-    "texture_name": "atlas.items",
-    "resource_pack_name": "yt_tutorial_addon"
+    }
 }
